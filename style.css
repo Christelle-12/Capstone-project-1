@@ -1,0 +1,127 @@
+@import url("https: //fonts.googleapis.com/css?family=Lato&display=swap");
+
+:root {
+    --primaryColor: #272a27;
+    --secondaryColor: #ec5242;
+    --backgroundColor: #dbdfdbec;
+}
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background: #f7f3f3;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato' , sans-serif ;
+}
+
+.nav {
+    width: 100%;
+    height: 8rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+
+}
+.nav .menu-but {
+    padding-left: 1.3rem;
+    padding-bottom: 2.6rem;
+    margin-top: 1.3rem;
+    width: 10%;
+}
+.nav .logo img {
+    padding-top: 1.3rem;
+    padding-left: 1.3rem;
+    width: 60%;
+    align-self: center;
+}
+.hero-container {
+    width: 100%;
+    height:40rem ;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(206, 205, 205, 0), rgb(220, 224, 220)), url(images/summit-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-container h3 {
+    color: var(--secondaryColor);
+    letter-spacing: 0.2rem;
+    padding-left: 1.5rem;
+}
+.hero-container h1 {
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+    color: var(--seconderyColor);
+    margin: 10px 0;
+    background-image: url("/images/font.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hero-container-text {
+    border-style: double;
+    border-color: #f7f3f3;
+    box-sizing: border-box;
+    padding-left: 1.2rem;
+    margin: 1.2rem;
+}
+.time h2 {
+    color: #595959;
+    font-weight: 900;
+    font-size: 20px;
+    padding-left: 1.2rem;
+}
+.time p {
+    color: rgb(133, 126, 126);
+    padding-left: 1.2rem;
+}
+.programs {
+    width: 100%;
+    height: 60rem;
+    background-image: url(/images/main-program-bg.png);
+    background-color: rgb(39 42 50 / 99.3%);
+}
+.list-programs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.1rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    height: 3rem;
+
+}
+.li-cards {
+    display: flex;
+    background: linear-gradient(rgba(225, 224, 225,0.1), rgb(225, 224, 225,0.1));
+    padding: 1rem;
+}
+.li-cards p {
+    color: #fff;
+}
+.li-cards span {
+    color: var(--secondaryColor);
+}
+.speakers {
+    width: 100%;
+    height: 30rem;
+    background-color: rgb(233, 153, 153);
+}
+.footer-but {
+    background: #ec5242;
+    color: #fff;
+    margin-top: 38rem;
+    height: 3.2rem;
+    width: 16rem;
+    margin-left: 4.2rem;
+}
