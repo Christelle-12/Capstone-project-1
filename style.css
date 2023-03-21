@@ -22,8 +22,10 @@ body {
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
 }
-
 .nav {
+    display: flex;
+}
+.nav .menu-logo {
   width: 100%;
   height: 8rem;
   background-color: #fff;

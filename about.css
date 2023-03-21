@@ -8,6 +8,8 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  height: fit-content;
+  width: 100%;
 }
 
 .navigation {
@@ -105,4 +107,41 @@ body {
   line-height: 1.5rem;
   color: #838383;
   text-align: center;
+  box-sizing: border-box;
 }
+.logo img {
+    width: 90%;
+    padding-left: 2.5rem;
+}
+.past ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem auto;
+    gap: 10rem;
+    /* background-color: #d3d3d3; */
+
+}
+.past ul li {
+    list-style: none;
+}
+.past ul .summit2019 h2 {
+   
+}
+.past ul .summit2019 img {
+    position: absolute;
+    z-index: 2;
+    background-color: var(--secondaryColor);
+    opacity: 0.5;
+    width: 100%;
+}
+.past ul .summit2022 img {
+    /* position: absolute; */
+    z-index: 2;
+    background-color: var(--secondaryColor);
+    opacity: 0.5;
+    width: 100%;
+}
+
+
+
