@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Lato' , sans-serif ;
+    overflow-x: hidden;
 }
 
 .nav {
@@ -29,11 +30,11 @@ body {
     flex-direction: row;
 
 }
-.nav .menu-but {
+.nav .fa-bars {
     padding-left: 1.3rem;
     padding-bottom: 2.6rem;
     margin-top: 1.3rem;
-    width: 10%;
+    width: 20%;
 }
 .nav .logo img {
     padding-top: 1.3rem;
@@ -46,7 +47,7 @@ body {
     height:40rem ;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(206, 205, 205, 0), rgb(220, 224, 220)), url(images/summit-background.jpg);
+    background: linear-gradient(rgba(206, 205, 205, 0), rgb(220, 224, 220)), url(images/backgrounds/summit-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -87,9 +88,16 @@ body {
 }
 .programs {
     width: 100%;
+    display: flex;
+    flex-direction: column;
     height: 60rem;
-    background-image: url(/images/main-program-bg.png);
+    background-image: url(/images/backgrounds/main-program-bg.png);
     background-color: rgb(39 42 50 / 99.3%);
+}
+.programs h2 {
+    color:#fff;
+    align-self: center;
+    font-weight: 100;
 }
 .list-programs {
     display: flex;
@@ -103,8 +111,25 @@ body {
 }
 .li-cards {
     display: flex;
+    gap: 2rem;
     background: linear-gradient(rgba(225, 224, 225,0.1), rgb(225, 224, 225,0.1));
     padding: 1rem;
+}
+.li-cards .Forum {
+    padding-left: 1rem;
+    line-height: 1.5rem;
+
+}
+.li-cards .p-text {
+    line-height: 1.5rem;
+}
+.li-cards .workshop {
+    padding-right: 1.5rem;
+    line-height: 1.5rem;
+}
+.li-cards .ignite {
+    padding-left: 1rem;
+    line-height: 1.5rem;
 }
 .li-cards p {
     color: #fff;
@@ -120,8 +145,71 @@ body {
 .footer-but {
     background: #ec5242;
     color: #fff;
-    margin-top: 38rem;
-    height: 3.2rem;
-    width: 16rem;
-    margin-left: 4.2rem;
+    margin-top: 120%;
+    height: 5.2rem;
+    width: 24rem;
+    margin-bottom: 1.2rem;
+    align-self: center;
+}
+
+/* speakers styles */
+.speakers {
+    width: 100%;
+    height: fit-content;
+    background-color: #f7f3f3;
+}
+.speakers h2 {
+    color: #272a31;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.speakers .other-speakers {
+display: flex;
+flex-direction: column;
+gap: 3rem;
+}
+li .cards-image {
+    width: 20rem;
+    height: 13rem;
+   
+}
+li .cards-image img {
+    width: 100%;
+    height: auto;
+}
+li .cards-text {
+    margin: 2rem;
+    max-width: 15rem;
+}
+li .cards-text h3 {
+    font-family: 'Lato' sans-serif;
+    font-weight: 700;
+}
+li .cards-text h4 {
+    color: #F78C89;
+    letter-spacing: normal;
+    line-height: 1.5rem;
+}
+li .cards-text p {
+    font-weight: 600;
+    letter-spacing: 0.09rem;
+    line-height: 1.5rem;
+}
+.speakers button {
+    width: 85%;
+    height: 5rem;
+    margin: 2rem;
+    border: 2px solid #c4bbbb;
+    box-shadow: 0 0 5px #9c9797;
+}
+.speakers span {
+    font-weight: 750;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.speakers i {
+    color: var(--secondaryColor);
+    margin-left: 2rem;
+
 }
