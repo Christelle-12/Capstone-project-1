@@ -10,6 +10,7 @@ body {
   font-family: 'Lato', sans-serif;
   height: fit-content;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .navigation {
@@ -71,6 +72,7 @@ body {
   background-color: var(--backgroundColor);
   width: 100%;
   padding: 2rem;
+  box-sizing: border-box;
 }
 
 .address p {
@@ -117,31 +119,84 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 1rem auto;
-    gap: 10rem;
-    /* background-color: #d3d3d3; */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    gap: 3rem;
+    box-sizing: border-box;
+    
 
 }
 .past ul li {
     list-style: none;
 }
+.past ul .summit2019  {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(153,
+      48,
+      22,
+      0.6), rgba(153, 48, 22, 0.6)), url(images/programs/2019.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-clip: initial;
+    
+}
 .past ul .summit2019 h2 {
-   
-}
-.past ul .summit2019 img {
-    position: absolute;
-    z-index: 2;
-    background-color: var(--secondaryColor);
-    opacity: 0.5;
-    width: 100%;
-}
-.past ul .summit2022 img {
-    /* position: absolute; */
-    z-index: 2;
-    background-color: var(--secondaryColor);
-    opacity: 0.5;
-    width: 100%;
+    color: #f7f3f3;
+    text-align: center;
+    padding: 2rem 1rem;
+    font-family: 'Lato',sans-serif;
 }
 
+.past ul .summit2022  {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(rgba(153,
+    48,
+    22,
+    0.6), rgb(153,
+    48,
+    22,
+    0.6)), url(images/programs/2022alt.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-clip: initial;
+}
+.past ul .summit2022 h2{
+  color: #f7f3f3;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Lato', sans-serif;
+}
+.partners {
+  background-color: #414246;
+}
+.partners h2 {
+  color: #f7f3f3;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+.partners ul {
+display: flex;
+flex-wrap: wrap;
+gap: 1.2rem;
+width: 100%;
+}
+.partner-list {
+ list-style: none;
+}
 
-
+.partners ul .partner-list img {
+  width: 40%;
+}
+.foot {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

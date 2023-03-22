@@ -24,6 +24,7 @@ body {
 }
 .nav {
     display: flex;
+    
 }
 .nav .menu-logo {
   width: 100%;
@@ -39,7 +40,49 @@ body {
   margin-top: 1.3rem;
   width: 20%;
 }
+/* menu event styles */
+.menu-section {
+  display: none;
+}
 
+.menu-section.visible {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: rgba(216, 210, 210, 0.9);
+  height: 330vh;
+  width: 100%;
+
+}
+.menu-close-btn {
+  align-self: flex-end;
+  margin: 2rem 2rem;
+}
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.menu-list a {
+  text-decoration: none;
+  color: var(--primaryColor);
+  font-size: 5rem;
+}
+.event {
+  color: var(--primaryColor);
+  border: 3.5px solid var(--secondaryColor);
+  width: 40%;
+  /* height: 2.5rem; */
+  /* text-align: center; */
+  padding: 2rem 2rem;
+  margin-left: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+/* #### */
 li .cards-image img {
   width: 100%;
   height: auto;
@@ -197,6 +240,10 @@ li .cards-image {
   height: 13rem;
   list-style: none;
 }
+.cards {
+  list-style: none;
+  
+}
 
 li .cards-text {
   margin: 2rem;
@@ -241,3 +288,4 @@ li .cards-text p {
 }
 
 /* end of speaker style */
+
