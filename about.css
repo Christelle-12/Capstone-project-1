@@ -13,20 +13,62 @@ body {
   box-sizing: border-box;
 }
 
-.navigation {
+.menu-logo {
   display: flex;
   width: 100%;
   height: fit-content;
   align-items: center;
 }
 
-.navigation span img {
-  padding-left: 2.3rem;
-  width: 60%;
+/* menu style */
+.menu-section {
+  display: none;
 }
 
-.navigation i {
-  padding-left: 1.1rem;
+.menu-section.visible {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: rgba(216, 210, 210, 0.9);
+  height: 330vh;
+  width: 100%;
+}
+
+.menu-close-btn {
+  align-self: flex-end;
+  margin: 2rem 2rem;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: var(--primaryColor);
+  font-size: 3rem;
+}
+
+.event {
+  color: var(--primaryColor);
+  border: 3.5px solid var(--secondaryColor);
+  width: 40%;
+  padding: 2rem 2rem;
+  margin-left: 3rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+/* ######### */
+
+.menu-logo span img {
+  padding-left: 2.3rem;
+  width: 60%;
 }
 
 .theme {
@@ -111,89 +153,113 @@ body {
   text-align: center;
   box-sizing: border-box;
 }
-.logo img {
-    width: 90%;
-    padding-left: 2.5rem;
-}
+
 .past ul {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    gap: 3rem;
-    box-sizing: border-box;
-    
-
-}
-.past ul li {
-    list-style: none;
-}
-.past ul .summit2019  {
-    width: 100%;
-    height: 15rem;
-    display: flex;
-    flex-direction: column;
-    background: linear-gradient(rgba(153,
-      48,
-      22,
-      0.6), rgba(153, 48, 22, 0.6)), url(images/programs/2019.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-clip: initial;
-    
-}
-.past ul .summit2019 h2 {
-    color: #f7f3f3;
-    text-align: center;
-    padding: 2rem 1rem;
-    font-family: 'Lato',sans-serif;
-}
-
-.past ul .summit2022  {
-  width: 100%;
-  height: 15rem;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgba(153,
-    48,
-    22,
-    0.6), rgb(153,
-    48,
-    22,
-    0.6)), url(images/programs/2022alt.jpeg);
-  background-size: cover;
-  background-position: center center;
-  background-clip: initial;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 3rem;
+  box-sizing: border-box;
 }
-.past ul .summit2022 h2{
-  color: #f7f3f3;
-  text-align: center;
-  padding: 2rem 1rem;
-  font-family: 'Lato', sans-serif;
+
+.past ul li {
+  list-style: none;
 }
-.partners {
-  background-color: #414246;
-}
+
 .partners h2 {
   color: #f7f3f3;
   text-align: center;
   padding: 2rem;
   font-family: 'Lato', sans-serif;
 }
-.partners ul {
-display: flex;
-flex-wrap: wrap;
-gap: 1.2rem;
-width: 100%;
+
+.past ul .summit2019 {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(
+      rgba(
+        153,
+        48,
+        22,
+        0.6
+      ),
+      rgba(153, 48, 22, 0.6)
+    ),
+    url(images/programs/2019.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-clip: initial;
 }
+
+.past ul .summit2019 h2 {
+  color: #f7f3f3;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.past ul .summit2022 {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(
+      rgba(
+        153,
+        48,
+        22,
+        0.6
+      ),
+      rgb(
+        153,
+        48,
+        22,
+        0.6
+      )
+    ),
+    url(images/programs/2022alt.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-clip: initial;
+}
+
+.past ul .summit2022 h2 {
+  color: #f7f3f3;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.partners {
+  background-color: #414246;
+}
+
+.partners ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  width: 100%;
+}
+
 .partner-list {
- list-style: none;
+  list-style: none;
 }
 
 .partners ul .partner-list img {
   width: 40%;
 }
+
+#menu-logo .logo img {
+  width: 90%;
+  padding-left: 2.5rem;
+}
+
 .foot {
   background-color: #fff;
   display: flex;
