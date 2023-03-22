@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
@@ -16,26 +16,59 @@
     </span>
     <div class="menu-link">
         
-    <ul class="menu-list">
-        <li><a href="./about.html" class="menu-item">About</a></li>
-        <li><a href="#" class="menu-item">programs</a></li>
-        <li><a href="#" class="menu-item">Join</a></li>
-        <li><a href="#" class="menu-item">Sponsors</a></li>
-        <li><a href="#" class="menu-item">News</a></li>
-    </ul>
+        <ul class="menu-list">
+            <li><a href="./about.html" class="menu-item">About</a></li>
+            <li><a href="#" class="menu-item">programs</a></li>
+            <li><a href="#" class="menu-item">Join</a></li>
+            <li><a href="#" class="menu-item">Sponsors</a></li>
+            <li><a href="#" class="menu-item">News</a></li>
+       </ul>
     </div>
     <div class="event">ICLR event</div>
 </section>
 
 <nav class="nav">
-    <div class="menu-logo">
-        <span id="menu-btn">
-            <i class="fa fa-bars" aria-hidden="true"></i>
-        </span>
-        <span class="logo">
-            <img src="images/iclr logo.PNG" alt="logo picture">
-        </span>
+    <div class="upper">
+        <ul>
+            <li><a href="#"> <img src="images/desktop/Rectangle.png" alt="Facebook"></a>
+            </li>
+            <li>
+                <a href="#">
+                <img src="images/desktop/twitter.png" alt="twitter">
+            </a>
+           </li>
+            <li>
+                <a href="#">English</a>
+            </li>
+            <li>
+                <a href="#">My page</a>
+            </li>
+            <li>
+                <a href="#">Logout</a>
+            </li>
+        </ul>
     </div>
+    <div class="wrapping">
+        <div class="menu-logo">
+            <span id="menu-btn" class="menu-icon">
+                <i class="fa fa-bars fa-2x" aria-hidden="true" class="my-Icon"></i>
+            </span>
+            <span class="logo">
+                <img src="images/iclr logo.PNG" alt="logo picture">
+            </span>
+        </div>
+        <div class="desk">
+            <ul class="menu-list">
+                <li><a href="./about.html" class="menu-item">About</a></li>
+                <li><a href="#" class="menu-item">programs</a></li>
+                <li><a href="#" class="menu-item">Join</a></li>
+                <li><a href="#" class="menu-item">Sponsors</a></li>
+                <li><a href="#" class="menu-item">News</a></li>
+            </ul>
+            <div class="event"> <p>ICLR event</p> </div>
+</div>
+    </div>
+    
 </nav>
 
     <div class="hero-container">
@@ -109,7 +142,7 @@
         <!-- dynamically rendered list -->
         <ul class="other-speakers">
         </ul>
-
+        <!-- end -->
         <button type="submit"><span>MORE</span> <i class="fa-solid fa-angle-down"></i></button>
     </div>
 <script src="speakers.js"></script>

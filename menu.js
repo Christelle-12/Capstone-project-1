@@ -18,3 +18,5 @@ window.addEventListener('load', () => {
     menuSection.classList.remove('visible');
   });
 });
+// desktop version
+

@@ -1,4 +1,4 @@
-@import url("https: //fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 :root {
   --primaryColor: #272a27;
@@ -79,10 +79,6 @@ body {
   color: var(--primaryColor);
   border: 3.5px solid var(--secondaryColor);
   width: 40%;
-
-  /* height: 2.5rem; */
-
-  /* text-align: center; */
   padding: 2rem 2rem;
   margin-left: 3rem;
   font-size: 2rem;
@@ -97,11 +93,14 @@ li .cards-image img {
   position: relative;
 }
 
+.nav .logo {
+  padding-left: 15%;
+}
+
 .nav .logo img {
   padding-top: 1.3rem;
   padding-left: 1.3rem;
   width: 60%;
-  align-self: center;
 }
 
 .hero-container {
@@ -139,6 +138,7 @@ li .cards-image img {
   box-sizing: border-box;
   padding-left: 1.2rem;
   margin: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .time h2 {
@@ -295,4 +295,104 @@ li .cards-text p {
   margin-left: 2rem;
 }
 
+@media screen and (max-width: 768px) {
+  .nav .upper {
+    display: none;
+  }
+
+  .menu-list {
+    display: none;
+  }
+}
+
 /* end of speaker style */
+
+/* DESKTOP VERSION */
+@media screen and (min-width: 768px) {
+  @import url("https: //fonts.googleapis.com/css?family=Lato&display=swap");
+
+  :root {
+    --primaryColor: #3e3e3e;
+    --secondaryColor: #ec5242;
+    --backgroundColor: #dbdfdbec;
+  }
+
+  /* nav bar */
+  .menu-logo .fa-bars {
+    display: none;
+  }
+
+  .wrapping {
+    display: flex;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    background-color: #fff;
+    height: 5rem;
+    box-sizing: border-box;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav .upper {
+    background-color: var(--primaryColor);
+    height: 3rem;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+  .nav .upper ul {
+    display: flex;
+    gap: 1.3rem;
+    align-items: baseline;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    list-style: none;
+  }
+
+  .nav .upper ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav .menu-logo .logo {
+    padding-left: 10%;
+  }
+
+  .nav .menu-logo {
+    height: 6rem;
+    width: 100%;
+  }
+
+  .desk {
+    display: flex;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu-list .menu-item {
+    font-size: 2rem;
+  }
+
+  .event {
+    color: var(--secondaryColor);
+    border: 4.5px solid var(--secondaryColor);
+
+    /* width: 40%; */
+    height: fit-content;
+    font-size: 2rem;
+    font-weight: 700;
+    box-sizing: border-box;
+  }
+
+  .event p {
+    text-align: center;
+  }
+}
