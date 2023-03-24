@@ -95,6 +95,7 @@ function displayMore() {
     teamlist.forEach((team, index) => {
       if (index >= 2) {
         team.style.display = 'flex';
+      
       }
     });
     SpanButt.textContent = 'LESS';
@@ -123,5 +124,4 @@ teamlist.forEach((team, index) => {
 
 
 MoreButt.addEventListener('click', displayMore);
-
 

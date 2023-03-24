@@ -107,7 +107,7 @@ li .cards-image img {
   height: 40rem;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgba(206, 205, 205, 0), rgb(220, 224, 220)), url(images/backgrounds/summit-background.jpg);
+  background: linear-gradient(rgba(206, 205, 205, 0), rgb(220, 224, 220)), url(images/backgrounds/header.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -160,7 +160,7 @@ li .cards-image img {
 }
 
 .programs {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   /* height: auto; */
@@ -247,10 +247,8 @@ li .cards-image img {
 }
 
  .cards-image {
-  width: 100%;
+  width: 50%;
   list-style: none;
-  
-
 }
 
 .cards {
@@ -317,6 +315,9 @@ li .cards-text p {
   .contact {
     display: none;
   }
+  .section-prog h3 {
+    display: none;
+  }
 }
 
 /* end of speaker style */
@@ -324,6 +325,11 @@ li .cards-text p {
 /* DESKTOP VERSION */
 @media screen and (min-width: 768px) {
   @import url("https: //fonts.googleapis.com/css?family=Lato&display=swap");
+  @import url("https://fonts.cdnfonts.com/css/cocogoose");
+
+  html {
+      scroll-behavior: smooth;
+    }
 
   :root {
     --primaryColor: #3e3e3e;
@@ -424,7 +430,7 @@ li .cards-text p {
     height: auto;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(206, 205, 205, 0), rgb(220, 224, 220)), url(images/backgrounds/summit-background.jpg);
+    background: linear-gradient(rgba(206, 205, 205, 0), rgb(220, 224, 220)), url(images/backgrounds/header.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 4rem;
@@ -445,6 +451,7 @@ li .cards-text p {
       font-size: 5rem;
       margin-left: 3rem;
       text-align: center;
+      font-family: 'COCOGOOSE', sans-serif;
     }
   
     .hero-container-text {
@@ -476,6 +483,91 @@ li .cards-text p {
       text-decoration: none;
       color:var(--primaryColor) ;
     }
+    .programs {
+      margin: 4rem;
+    
+    }
+    .programs h2 {
+      font-size: 4rem;
+    }
+    .programs h2 hr {
+      width: 7rem;
+
+    }
+    .list-programs{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      margin-right: 7.6rem!important;
+      /* width: 100%; */
+      
+    }
+    .li-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .li-cards:hover {
+      border: 3px solid #fff;
+      cursor: pointer;
+    }
+    .li-cards img {
+      align-self: center;
+      height: 8rem;
+      width :8rem;
+    }
+    .li-cards span {
+      font-family: 'lato',sans-serif;
+      font-size: 3rem;
+    }
+    .li-cards p{
+      font-family: 'lato', sans-serif;
+      font-size: 2rem;
+      font-weight: 80;
+      line-height: 25px !important;
+    }
+    .ignite {
+      line-height: 4rem;
+      font-size: 1.5rem!important;
+      
+    }
+    .footer-but {
+      display: none;
+    }
+    .section-prog h3 {
+      
+      text-align: center;
+      padding-bottom: 3rem;
+
+    }
+    .section-prog h3 a {
+      text-decoration: none;
+      color: #f7f3f3;
+      font-size: 3rem;
+      font-weight: 50;
+    }
+    .section-prog h3 hr {
+      width: 29.7rem;
+    }
+   
+  
+    .cards {
+     grid-gap: 4rem;
+    
+    }
+    .cards-image {
+      width: 30%;
+    }
+    
+
+    
+    .cards:nth-child(1),
+    .cards:nth-child(2) {
+     display: flex;
+     flex-direction: row;
+   
+    }
+  
 
 
-}
+
+  }
