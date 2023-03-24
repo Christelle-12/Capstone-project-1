@@ -24,7 +24,6 @@ body {
 }
 
 .nav .menu-logo {
-  padding-left: 10%;
   background-color: #fff;
   display: flex;
   flex-direction: row;
@@ -73,6 +72,10 @@ section .menu-list a {
   text-decoration: none;
   color: var(--primaryColor);
   font-size: 5rem;
+}
+
+.menu-list a:hover {
+  color: blue;
 }
 
 .event {
@@ -426,6 +429,7 @@ li .cards-text p {
     font-weight: 700;
     box-sizing: border-box;
     margin-left: 1rem;
+    padding: 1rem;
   }
 
   .hero-container {
@@ -554,8 +558,6 @@ li .cards-text p {
     text-align: center;
     padding-bottom: 3rem;
   }
-
-
 
   .section-prog h3 hr {
     width: 29.7rem;

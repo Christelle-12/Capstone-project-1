@@ -48,10 +48,13 @@ body {
   gap: 3rem;
 }
 
-.menu-list a {
-  text-decoration: none;
-  color: var(--primaryColor);
-  font-size: 3rem;
+.address a {
+  color: rgb(71, 67, 67);
+  font-weight: 580;
+}
+
+.menu-list a:hover {
+  color: blue;
 }
 
 .event {
@@ -66,6 +69,11 @@ body {
 }
 
 /* ######### */
+.sec1-abt {
+  background-image: url(../images/backgrounds/header.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 
 .menu-logo span img {
   padding-left: 2.3rem;
@@ -77,9 +85,6 @@ body {
   height: 15rem;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgba(102, 112, 102, 0.7), rgb(102, 112, 102, 0.6)), url(images/backgrounds/coding-person-back.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
 }
 
 .theme h3 {
@@ -93,7 +98,7 @@ body {
   padding-left: 1.5rem;
   color: var(--seconderyColor);
   margin: 10px 0;
-  background-image: url("/images/backgrounds/font.jpg");
+  background-image: url("../images/backgrounds/font.jpg");
   background-size: cover;
   background-position: center center;
   background-clip: initial;
@@ -102,8 +107,7 @@ body {
 }
 
 .description p {
-  border-style: double;
-  border-color: #f7f3f3;
+  border: 3px solid #fff;
   box-sizing: border-box;
   padding-left: 1.2rem;
   margin: 1.2rem;
@@ -124,11 +128,6 @@ body {
   text-align: center;
 }
 
-.address a {
-  color: rgb(71, 67, 67);
-  font-weight: 580;
-}
-
 .address a:active {
   color: blue;
 }
@@ -142,9 +141,11 @@ body {
   text-align: center;
   color: #2c2c2c;
   font-weight: 700;
-  border-bottom-width: 0.1rem;
-  border-bottom-color: #ec5242;
-  border-bottom-style: solid;
+}
+
+.creative hr {
+  border: 1.5px solid var(--secondaryColor);
+  width: 4rem;
 }
 
 .creative p {
@@ -155,7 +156,7 @@ body {
   box-sizing: border-box;
 }
 
-.past ul {
+.past-wrap {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -165,10 +166,6 @@ body {
   box-sizing: border-box;
 }
 
-.past ul li {
-  list-style: none;
-}
-
 .partners h2 {
   color: #f7f3f3;
   text-align: center;
@@ -176,7 +173,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.past ul .summit2019 {
+.summit2019 {
   width: 100%;
   height: 15rem;
   display: flex;
@@ -191,20 +188,20 @@ body {
       ),
       rgba(153, 48, 22, 0.6)
     ),
-    url(images/programs/2019.jpg);
+    url(../images/programs/2019.jpg);
   background-size: cover;
   background-position: center center;
   background-clip: initial;
 }
 
-.past ul .summit2019 h2 {
+.summit2019 h2 {
   color: #f7f3f3;
   text-align: center;
   padding: 2rem 1rem;
   font-family: 'Lato', sans-serif;
 }
 
-.past ul .summit2022 {
+.summit2022 {
   width: 100%;
   height: 15rem;
   display: flex;
@@ -224,21 +221,17 @@ body {
         0.6
       )
     ),
-    url(images/programs/2022alt.jpeg);
+    url(../images/programs/2022alt.jpeg);
   background-size: cover;
   background-position: center center;
   background-clip: initial;
 }
 
-.past ul .summit2022 h2 {
+.summit2022 h2 {
   color: #f7f3f3;
   text-align: center;
   padding: 2rem 1rem;
   font-family: 'Lato', sans-serif;
-}
-
-.partners {
-  background-color: #414246;
 }
 
 .partners ul {
@@ -261,16 +254,188 @@ body {
   padding-left: 2.5rem;
 }
 
-.foot {
-  background-color: #fff;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
+.partners {
+  background-color: #414246;
+  flex-direction: column;
+  padding-bottom: 2rem;
 }
 
-.foot p {
-  padding-right: 2rem;
-  color: gray;
-  font-weight: 600;
+.partners hr {
+  border: 2px solid var(--secondaryColor);
+  width: 3.75rem;
+}
+
+.partner-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.part2 {
+  width: 5rem;
+}
+
+.part4 {
+  width: 5rem;
+}
+
+.last-foot {
+  display: flex;
+  background-color: var(--backgroundColor);
+  justify-content: space-around;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.words-foot {
+  font-size: 1.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 786px) {
+  .desk {
+    display: none;
+  }
+
+  .upper {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #menu-btn {
+    display: none;
+  }
+
+  .upper {
+    background-color: var(--primaryColor);
+    width: 100%;
+    padding-bottom: 0.1rem;
+    padding-top: 0.1rem;
+  }
+
+  .upper ul {
+    display: flex;
+    gap: 1.3rem;
+    align-items: baseline;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 10rem;
+  }
+
+  .menu-list a {
+    text-decoration: none;
+    color: var(--primaryColor);
+    font-size: 1.2rem;
+  }
+
+  .upper ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  .menu-logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desk {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10rem;
+  }
+
+  .event1 {
+    border: 3px solid var(--secondaryColor);
+    padding: 1rem;
+    font-weight: 600;
+  }
+
+  .sec1-abt {
+    background-size: 100% 100%;
+    height: 100vh;
+  }
+
+  .theme {
+    gap: 0;
+    height: auto;
+  }
+
+  .theme h3 {
+    align-self: center;
+    font-size: 2.2rem;
+  }
+
+  .theme h1 {
+    align-self: center;
+    font-size: 3rem;
+    position: relative;
+  }
+
+  .description {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .description p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 1rem;
+  }
+
+  .address p {
+    font-size: 1.6rem;
+  }
+
+  .creative h2 {
+    font-size: 3rem;
+  }
+
+  .creative hr {
+    border: 2.3px solid var(--secondaryColor);
+    width: 7rem;
+  }
+
+  .creative p {
+    font-size: 1.6rem;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .past {
+    text-align: center;
+  }
+
+  .past-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 80%;
+    margin-left: 12rem;
+  }
+
+  .summit2019 {
+    width: 60%;
+  }
+
+  .summit2022 {
+    width: 60%;
+  }
 }
