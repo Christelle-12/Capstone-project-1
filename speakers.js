@@ -3,7 +3,7 @@ const content = [
         id: 1,
         name: 'Elaine O. Nsoesie',
         Image: {
-            img: "../images/elaine1.jpg",
+            img: "images/elaine1.jpg",
             alt: "speaker1",
         },
         job: 'Assistant Professor of Global Health at Boston University',
@@ -13,7 +13,7 @@ const content = [
         id: 2,
         name: 'Sofia Crespo',
         Image: {
-            img: "../images/sophia 2.jpeg",
+            img: "images/sophia 2.jpeg",
             alt: "speaker 2",
         },
         job: 'contemporary artist based in Berlin',
@@ -23,7 +23,7 @@ const content = [
         id: 3,
         name: 'Masashi Sugiyama',
         Image: {
-            img: "../images/sugiyama2.jpeg",
+            img: "images/sugiyama2.jpeg",
             alt: 'speaker 3',
         },
         job: 'prominent Japanese computer scientist and artificial intelligence (AI) researcher',
@@ -33,7 +33,7 @@ const content = [
         id: 4,
         name: 'Girmaw Abebe Tadesse',
         Image: {
-            img: "../images/girmaw_abebe22.jpg",
+            img: "images/girmaw_abebe22.jpg",
             alt: "speaker 4",
         },
         job: 'computer scientist and educator',
@@ -43,7 +43,7 @@ const content = [
         id: 5,
         name: 'Jascha Sohl-Dickstein',
         Image: {
-            img: "../images/jasack22.jpg",
+            img: "images/jasack22.jpg",
             alt: 'speaker 5',
         },
         job: 'research scientist and engineer',
@@ -53,7 +53,7 @@ const content = [
         id: 6,
         name: 'Dilek Hakkani-Tur',
         Image: {
-            img: "../images/Dilek_Portrait-22.jpg",
+            img: "images/Dilek_Portrait-22.jpg",
             alt: "speaker 6",
         },
         job: ' prominent researcher and scientist in the field of artificial intelligence and natural language processing',

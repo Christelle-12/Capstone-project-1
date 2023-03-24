@@ -70,7 +70,7 @@ body {
 
 /* ######### */
 .sec1-abt {
-  background-image: url(../images/header.png);
+  background-image: url(images/header.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -98,7 +98,7 @@ body {
   padding-left: 1.5rem;
   color: var(--seconderyColor);
   margin: 10px 0;
-  background-image: url("../images/font.jpg");
+  background-image: url("images/font.jpg");
   background-size: cover;
   background-position: center center;
   background-clip: initial;
@@ -188,7 +188,7 @@ body {
       ),
       rgba(153, 48, 22, 0.6)
     ),
-    url(../images/programs/2019.jpg);
+    url(images/programs/2019.jpg);
   background-size: cover;
   background-position: center center;
   background-clip: initial;
@@ -221,7 +221,7 @@ body {
         0.6
       )
     ),
-    url(../images/programs/2022alt.jpeg);
+    url(images/programs/2022alt.jpeg);
   background-size: cover;
   background-position: center center;
   background-clip: initial;
