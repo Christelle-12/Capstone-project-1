@@ -24,8 +24,7 @@ body {
 }
 
 .nav .menu-logo {
-  /* width: 100%; */
-  height: 8rem;
+  padding-left: 10%;
   background-color: #fff;
   display: flex;
   flex-direction: row;
@@ -65,12 +64,18 @@ section .menu-list {
   gap: 3rem;
 }
 
+.event a {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
 section .menu-list a {
   text-decoration: none;
   color: var(--primaryColor);
   font-size: 5rem;
 }
- .event{
+
+.event {
   border: 3.5px solid var(--secondaryColor);
   width: 40%;
   padding: 2rem 2rem;
@@ -79,21 +84,18 @@ section .menu-list a {
   font-weight: 700;
   box-sizing: border-box;
 }
-.event a {
-  text-decoration: none;
-  color: var(--primaryColor);
-}
+
+
 
 /* #### */
 li .cards-image img {
-  width: 100%;
-  height: auto;
+  width: 20rem;
+  height: 20rem;
   position: relative;
 }
 
 .nav span .logo {
   padding-left: 15%;
-  
 }
 
 .nav .logo img {
@@ -151,18 +153,19 @@ li .cards-image img {
   color: rgb(133, 126, 126);
   padding-left: 1.2rem;
 }
+
 .section-prog {
   background-image: url(/images/backgrounds/main-program-bg.png);
-    background-color: rgb(39 42 50 / 99.3%);
-    display: flex;
-    flex-direction: column;
-
+  background-color: rgb(39 42 50 / 99.3%);
+  display: flex;
+  flex-direction: column;
 }
 
 .programs {
   /* width: 100%; */
   display: flex;
   flex-direction: column;
+
   /* height: auto; */
   background-image: url(/images/backgrounds/main-program-bg.png);
   background-color: rgb(39 42 50 / 99.3%);
@@ -201,7 +204,6 @@ li .cards-image img {
 .li-cards .p-text {
   line-height: 1.5rem;
   font-size: 1.5rem;
-  
 }
 
 .li-cards .workshop {
@@ -229,24 +231,18 @@ li .cards-image img {
   height: 5.2rem;
   width: auto;
   align-self: center;
-  
 }
 
 /* speakers styles */
 .speakers {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: fit-content;
   background-color: #f7f3f3;
 }
 
-.speakers h2 {
-  color: #272a31;
-  font-weight: 500;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
-}
-
- .cards-image {
+.cards-image {
   width: 50%;
   list-style: none;
 }
@@ -257,7 +253,6 @@ li .cards-image img {
   grid-template-columns: 3fr 4fr;
   grid-template-rows: auto;
   grid-column-gap: 2.5rem;
-  
 }
 
 li .cards-text {
@@ -279,7 +274,6 @@ li .cards-text p {
   font-weight: 600;
   letter-spacing: 0.09rem;
   line-height: 1.5rem;
-
 }
 
 .speakers button {
@@ -309,13 +303,24 @@ li .cards-text p {
   .menu-list {
     display: none;
   }
+
   .event1 {
     display: none;
-  } 
+  }
+
   .contact {
     display: none;
   }
+
   .section-prog h3 {
+    display: none;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .last-foot {
     display: none;
   }
 }
@@ -328,8 +333,8 @@ li .cards-text p {
   @import url("https://fonts.cdnfonts.com/css/cocogoose");
 
   html {
-      scroll-behavior: smooth;
-    }
+    scroll-behavior: smooth;
+  }
 
   :root {
     --primaryColor: #3e3e3e;
@@ -341,22 +346,17 @@ li .cards-text p {
   .menu-logo .fa-bars {
     display: none;
   }
-  
 
   .wrapping {
     display: flex;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
+    justify-content: baseline;
+    gap: 33rem;
     background-color: #fff;
-    height: 5rem;
-    box-sizing: border-box;
-    
   }
 
   .nav {
     display: flex;
     flex-direction: column;
-    
   }
 
   .nav .upper {
@@ -364,7 +364,6 @@ li .cards-text p {
     height: 3rem;
     width: 100%;
     padding-bottom: 1rem;
-    
   }
 
   .nav .upper ul {
@@ -372,24 +371,31 @@ li .cards-text p {
     gap: 1.3rem;
     align-items: baseline;
     justify-content: flex-end;
-    padding-right: 3rem;
     list-style: none;
     padding-right: 18rem;
+  }
+
+  .menu-list li a {
+    text-decoration: none;
+    color: var(--primaryColor);
+  }
+
+  .contact span a {
+    text-decoration: none;
+    color: var(--primaryColor);
+  }
+
+  .section-prog h3 a {
+    text-decoration: none;
+    color: #f7f3f3;
+    font-size: 3rem;
+    font-weight: 50;
   }
 
   .nav .upper ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 2rem;
-  }
-
-  .nav .menu-logo .logo {
-    padding-left: 10%;
-  }
-
-  .nav .menu-logo {
-    height: 6rem;
-    width: 100%;
   }
 
   .desk {
@@ -400,17 +406,12 @@ li .cards-text p {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    padding-right: 1rem;
-    
-      
+    width: 80%;
+    justify-content: flex-end;
   }
+
   .menu-list li {
     list-style: none;
-
-  }
-  .menu-list li a{
-    text-decoration: none;
-    color: var(--primaryColor);
   }
 
   .menu-list .menu-item {
@@ -424,7 +425,9 @@ li .cards-text p {
     font-size: 2rem;
     font-weight: 700;
     box-sizing: border-box;
+    margin-left: 1rem;
   }
+
   .hero-container {
     width: 100%;
     height: auto;
@@ -435,139 +438,225 @@ li .cards-text p {
     background-repeat: no-repeat;
     padding-bottom: 4rem;
   }
-    .hero-container h3 {
-      color: var(--secondaryColor);
-      letter-spacing: 0.2rem;
-      padding-left: 1.5rem;
-      font-size: 5.2rem;
-      margin-left: 3rem;
-      text-align: center;
-    }
-  
-    .hero-container h1 {
-      text-transform: uppercase;
-      padding-left: 1.5rem;
-      color: var(--seconderyColor);
-      font-size: 5rem;
-      margin-left: 3rem;
-      text-align: center;
-      font-family: 'COCOGOOSE', sans-serif;
-    }
-  
-    .hero-container-text {
-      border-style: solid;
-      border-color: #f7f3f3;
-      box-sizing: border-box;
-      padding: 1.2rem;
-      margin: 5.2rem;
-      font-size: 3.5rem;
-      text-align: center;
-    }
-    .time h2 {
-      color: #595959;
-      font-weight: 900;
-      font-size: 3rem;
-      padding-left: 1.2rem;
-      text-align: center;
-    }
 
-    .time p {
-      display: none;
-    }
-    .contact {
-      color: var(--primaryColor);
-      text-align: center;
-      font-size: 2rem;
-    }
-    .contact span a {
-      text-decoration: none;
-      color:var(--primaryColor) ;
-    }
-    .programs {
-      margin: 4rem;
-    
-    }
-    .programs h2 {
-      font-size: 4rem;
-    }
-    .programs h2 hr {
-      width: 7rem;
-
-    }
-    .list-programs{
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      margin-right: 7.6rem!important;
-      /* width: 100%; */
-      
-    }
-    .li-cards {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-    .li-cards:hover {
-      border: 3px solid #fff;
-      cursor: pointer;
-    }
-    .li-cards img {
-      align-self: center;
-      height: 8rem;
-      width :8rem;
-    }
-    .li-cards span {
-      font-family: 'lato',sans-serif;
-      font-size: 3rem;
-    }
-    .li-cards p{
-      font-family: 'lato', sans-serif;
-      font-size: 2rem;
-      font-weight: 80;
-      line-height: 25px !important;
-    }
-    .ignite {
-      line-height: 4rem;
-      font-size: 1.5rem!important;
-      
-    }
-    .footer-but {
-      display: none;
-    }
-    .section-prog h3 {
-      
-      text-align: center;
-      padding-bottom: 3rem;
-
-    }
-    .section-prog h3 a {
-      text-decoration: none;
-      color: #f7f3f3;
-      font-size: 3rem;
-      font-weight: 50;
-    }
-    .section-prog h3 hr {
-      width: 29.7rem;
-    }
-   
-  
-    .cards {
-     grid-gap: 4rem;
-    
-    }
-    .cards-image {
-      width: 30%;
-    }
-    
-
-    
-    .cards:nth-child(1),
-    .cards:nth-child(2) {
-     display: flex;
-     flex-direction: row;
-   
-    }
-  
-
-
-
+  .hero-container h3 {
+    color: var(--secondaryColor);
+    letter-spacing: 0.2rem;
+    padding-left: 1.5rem;
+    font-size: 5.2rem;
+    margin-left: 3rem;
+    text-align: center;
   }
+
+  .hero-container h1 {
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+    color: var(--seconderyColor);
+    font-size: 5rem;
+    margin-left: 3rem;
+    text-align: center;
+    font-family: 'COCOGOOSE', sans-serif;
+  }
+
+  .hero-container-text {
+    border-style: solid;
+    border-color: #f7f3f3;
+    box-sizing: border-box;
+    padding: 1.2rem;
+    margin: 5.2rem;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .time h2 {
+    color: #595959;
+    font-weight: 900;
+    font-size: 3rem;
+    padding-left: 1.2rem;
+    text-align: center;
+  }
+
+  .time p {
+    display: none;
+  }
+
+  .contact {
+    color: var(--primaryColor);
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .programs {
+    margin: 4rem;
+  }
+
+  .programs h2 {
+    font-size: 4rem;
+  }
+
+  .partners hr {
+    border: 2px solid var(--secondaryColor);
+    width: 5.75rem;
+  }
+
+  .programs h2 hr {
+    width: 7rem;
+    border: 2px solid var(--secondaryColor);
+  }
+
+  .list-programs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-right: 7.6rem !important;
+
+    /* width: 100%; */
+  }
+
+  .li-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .li-cards:hover {
+    border: 3px solid #fff;
+    cursor: pointer;
+  }
+
+  .li-cards img {
+    align-self: center;
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .li-cards span {
+    font-family: 'lato', sans-serif;
+    font-size: 3rem;
+  }
+
+  .li-cards p {
+    font-family: 'lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 80;
+    line-height: 25px !important;
+  }
+
+  .ignite {
+    line-height: 4rem;
+    font-size: 1.5rem !important;
+  }
+
+  .footer-but {
+    display: none;
+  }
+
+  .section-prog h3 {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+
+
+  .section-prog h3 hr {
+    width: 29.7rem;
+  }
+
+  .cards {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+  }
+
+  .speakers h2 {
+    color: #272a31;
+    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+  }
+
+  .partners h2 {
+    color: #f7f3f3;
+    align-self: center;
+    font-size: 4rem;
+  }
+
+  li .cards-text h2 {
+    font-size: 3rem;
+  }
+
+  li .cards-text h3 {
+    font-size: 3rem;
+  }
+
+  li .cards-text h4 {
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+  }
+
+  li .cards-text p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .cards-image {
+    width: 50%;
+  }
+
+  .other-speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20rem;
+  }
+
+  .speakers button {
+    width: 25%;
+    height: 6rem;
+    align-self: center;
+
+    /* text-align: center; */
+  }
+
+  .speakers button:active {
+    background-color: #ec5242;
+  }
+
+  .partners {
+    background-color: #414246;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .partner-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 15rem;
+  }
+
+  .part2 {
+    width: 15rem;
+  }
+
+  .part4 {
+    width: 15rem;
+  }
+
+  .last-foot {
+    display: flex;
+    background-color: var(--backgroundColor);
+    height: 10rem;
+    justify-content: space-around;
+  }
+
+  .words-foot {
+    font-size: 3rem;
+  }
+
+  .copyright {
+    font-size: 3rem;
+  }
+}
