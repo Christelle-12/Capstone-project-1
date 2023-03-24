@@ -97,11 +97,11 @@ For tracking linters errors locally you need to follow these steps:
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
-## 🔭 Future Features <a name="future-features"></a>
+<!-- ## 🔭 Future Features <a name="future-features"></a>
 
 
 - [ ] **add linters for different languages**
-- [ ] **create more flexible CSS**
+- [ ] **create more flexible CSS** -->
 
 
 <!-- SUPPORT -->
