@@ -347,6 +347,9 @@ li .cards-text p {
   .menu-logo .fa-bars {
     display: none;
   }
+  header {
+   position: fixed;
+  }
 
   .wrapping {
     display: flex;
