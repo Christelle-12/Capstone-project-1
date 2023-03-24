@@ -103,15 +103,6 @@ Feel free to check the [issues page](../../issues/).
 - [ ] **add linters for different languages**
 - [ ] **create more flexible CSS**
 
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
@@ -125,7 +116,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-- Hat tip to [Microvers](www.microverse.org) and all the staff
+- Hat tip to [Microverse](www.microverse.org) and all the staff
 - Thanks to My coding Partners
 - Thanks to My Morning-session-group and Standup-team Partners and
 - Thanks to Code Reviewers
