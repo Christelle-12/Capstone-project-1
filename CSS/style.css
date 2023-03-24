@@ -163,11 +163,8 @@ li .cards-image img {
 }
 
 .programs {
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
-
-  /* height: auto; */
   background-image: url(/images/backgrounds/main-program-bg.png);
   background-color: rgb(39 42 50 / 99.3%);
 }
@@ -346,10 +343,6 @@ li .cards-text p {
   /* nav bar */
   .menu-logo .fa-bars {
     display: none;
-  }
-
-  header {
-    position: fixed;
   }
 
   .wrapping {
