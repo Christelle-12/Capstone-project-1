@@ -70,7 +70,7 @@ body {
 
 /* ######### */
 .sec1-abt {
-  background-image: url(../images/backgrounds/header.png);
+  background-image: url(../images/header.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -98,7 +98,7 @@ body {
   padding-left: 1.5rem;
   color: var(--seconderyColor);
   margin: 10px 0;
-  background-image: url("../images/backgrounds/font.jpg");
+  background-image: url("../images/font.jpg");
   background-size: cover;
   background-position: center center;
   background-clip: initial;
