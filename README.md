@@ -37,7 +37,7 @@ The International Conference on Learning Representations (ICLR) is a prestigious
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Christelle-12)
+[Live Demo Link](https://christelle-12.github.io/Capstone-project-1/)
 
 ## Zoom Video
 
