@@ -345,6 +345,10 @@ li .cards-text p {
   @import url("https: //fonts.googleapis.com/css?family=Lato&display=swap");
   @import url("https://fonts.cdnfonts.com/css/cocogoose");
 
+  .speakers button {
+    display: none;
+  }
+
   html {
     scroll-behavior: smooth;
   }
