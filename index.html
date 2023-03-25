@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <!-- mobile version-->
+    <section class="menu-section" id="section">
+        <span class="menu-close-btn" id="close-btn">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </span>
+        <div class="menu-link">
+
+            <ul class="menu-list">
+                <li><a href="about.html" class="menu-item">About</a></li>
+                <li><a href="#" class="menu-item">programs</a></li>
+                <li><a href="#" class="menu-item">Join</a></li>
+                <li><a href="#" class="menu-item">Sponsors</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+            <div class="event">
+                <a href="#" class="menu-item">ICLR event</a>
+            </div>
+        </div>
+    </section>
+    <!-- home page start -->
+    <header>
+        <nav class="nav">
+            <!-- desktop header -->
+            <div class="upper">
+                <ul>
+                    <li><a href="#"> <img src="./images/Rectangle.png" alt="Facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/twitter.png" alt="twitter">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">English</a>
+                    </li>
+                    <li>
+                        <a href="#">My page</a>
+                    </li>
+                    <li>
+                        <a href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="wrapping">
+                <div class="menu-logo">
+                    <span id="menu-btn" class="menu-icon">
+                        <i class="fa fa-bars fa-2x" aria-hidden="true" class="my-Icon"></i>
+                    </span>
+                    <span class="logo">
+                        <img src="images/iclr logo.PNG" alt="logo picture">
+                    </span>
+                </div>
+                <div class="desk">
+                    <ul class="menu-list">
+                        <li><a href="./about.html" class="menu-item">About</a></li>
+                        <li><a href="#" class="menu-item">programs</a></li>
+                        <li><a href="#" class="menu-item">Join</a></li>
+                        <li><a href="#" class="menu-item">Sponsors</a></li>
+                        <li><a href="#" class="menu-item">News</a></li>
+                        <div class="event1">
+                            <span class="p-eve">ICLR </span>
+                        </div>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- first part -->
+    <section>
+        <div class="hero-container">
+            <h3>
+                "The International Conference on Learning Representations"
+            </h3>
+            <h1>
+                iclr<br>eleventh annual <br> conference 2023
+            </h1>
+            <div class="hero-container-text">
+                <p>
+                    We are very excited to be holding the ICLR 2023 annual conference in Kigali, Rwanda this year from
+                    May 1-5,
+                    2023.
+                    The
+                    conference will be located at the beautiful Kigali Convention Centre / Radisson Blu Hotel location
+                    which was
+                    recently
+                    built and opened for events and visitors in 2016
+                </p>
+            </div>
+            <div class="time">
+                <h2>2023.05.01(MOND) ~ 05(FRI)</h2>
+                <p>@ the beautiful Kigali Convention Centre / Radisson Blu Hotel</p>
+            </div>
+            <div class="contact">
+                <p>Please contact us per Email for any further questions about ICLR Summit 2023! </p>
+                <span><a href="https://iclr.cc/">Kaggle @ICLR 2023></a></span>
+            </div>
+        </div>
+
+    </section>
+    <!-- second part -->
+    <section class="section-prog">
+        <div class="programs">
+            <h2>Main programs
+                <hr>
+            </h2>
+            <!-- list of programs -->
+            <ul class="list-programs">
+                <li class="li-cards">
+                    <img src="images/program_icon_01 1.png" alt="">
+                    <span> Speakers</span>
+                    <p class="p-text">Hear from speakers from diverse nations about the themes of artificial
+                        intelligence and
+                        it's development.
+                    </p>
+                </li>
+                <li class="li-cards">
+                    <img src="images/program_icon_02 1.png" alt="">
+                    <span>Exhibitor</span>
+                    <p class="p-text">
+                        Your donation will be designated to the ICLR DEI Action Fund and will be restricted for use in
+                        providing
+                        accommodations for individuals.
+                    </p>
+                </li>
+
+                <li class="li-cards">
+                    <img src="images/program_icon_03 1.png" alt="">
+                    <span>Forum</span>
+                    <p class="Forum">
+                        Be in a position to spare some time to exchange views and opinions with experts on each topic.
+                    </p>
+                </li>
+                <li class="li-cards">
+                    <img src="images/program_icon_04 1.png" alt="">
+                    <span>Workshop</span>
+                    <p class="workshop">
+                        Endeavor to make your own project with an open source license instead of only watching.
+                    </p>
+                </li>
+                <li class="li-cards">
+                    <img src="images/program_icon_05 1.png" alt="">
+                    <span>Ignite</span>
+                    <p class="ignite">
+                        Acquire opportunities to network with AI developers and affiliates worldwide.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <button class="footer-but">ICLR 2023 Meeting</button>
+        <h3><a href="#">See the whole program
+                <hr>
+            </a></h3>
+    </section>
+    <!-- third part -->
+    <section>
+        <div id="presenters" class="speakers">
+            <h2>
+                Featured speakers <hr>
+            </h2>
+            <!-- dynamically rendered list -->
+
+            <ul class="other-speakers">
+            </ul>
+            <!-- end -->
+            <button type="submit"><span>MORE</span> <i class="fa-solid fa-angle-down"></i></button>
+        </div>
+    </section>
+    <section class="sect-partners">
+            <div class="partners">
+                <h2>Partners <hr></h2>
+                <div class="partner-wrap">
+            
+                    <div class="partner-list2"> <img src="images/mozilla 1.png" alt="" class="part2"></div>
+            
+                    <div class="partner-list3"><img src="images/naver 1.png" alt="" class="part3"></div>
+                    <div class="partner-list4"> <img src="images/google-logo.png" alt="" class="part4"></div>
+            
+                  
+                </div>
+            </div>
+            <footer class="last-foot">
+                <div class="words-foot">
+                    <p>International Conference on Learing Reresentation </p>
+                </div>
+                <div class="copyright">
+                    <p>&copy; Copyright 2023 ICLR/Rwanda-Kigali.</p>
+                </div>
+            </footer>
+     
+    </section>
+
+    <script src="speakers.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>

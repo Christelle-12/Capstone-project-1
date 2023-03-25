@@ -1,0 +1,443 @@
+@import url("https: //fonts.googleapis.com/css?family=Lato&display=swap");
+
+:root {
+  --primaryColor: #272a27;
+  --secondaryColor: #ec5242;
+  --backgroundColor: #d1e0d1ec;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  height: fit-content;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.menu-logo {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+}
+
+/* menu style */
+.menu-section {
+  display: none;
+}
+
+.menu-section.visible {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: rgba(216, 210, 210, 0.9);
+  height: 330vh;
+  width: 100%;
+}
+
+.menu-close-btn {
+  align-self: flex-end;
+  margin: 2rem 2rem;
+}
+
+.menu-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: baseline;
+}
+
+.address a {
+  color: rgb(71, 67, 67);
+  font-weight: 580;
+}
+
+.menu-list a:hover {
+  color: blue;
+}
+
+.event {
+  color: var(--primaryColor);
+  border: 3.5px solid var(--secondaryColor);
+  width: 40%;
+  padding: 2rem 2rem;
+  margin-left: 3rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+/* ######### */
+.sec1-abt {
+  background-image: url(images/header.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.menu-logo span img {
+  padding-left: 2.3rem;
+  width: 60%;
+}
+
+.theme {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.theme h3 {
+  color: var(--secondaryColor);
+  letter-spacing: 0.2rem;
+  padding-left: 1.5rem;
+}
+
+.theme h1 {
+  text-transform: uppercase;
+  padding-left: 1.5rem;
+  color: var(--seconderyColor);
+  margin: 10px 0;
+  background-image: url("images/font.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description p {
+  border: 3px solid #fff;
+  box-sizing: border-box;
+  padding-left: 1.2rem;
+  margin: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: normal;
+}
+
+.address {
+  background-color: var(--backgroundColor);
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.address p {
+  line-height: 1.5rem;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.address a:active {
+  color: blue;
+}
+
+.creative {
+  display: flex;
+  flex-direction: column;
+}
+
+.creative h2 {
+  text-align: center;
+  color: #2c2c2c;
+  font-weight: 700;
+}
+
+.creative hr {
+  border: 1.5px solid var(--secondaryColor);
+  width: 4rem;
+}
+
+.creative p {
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: #838383;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.past-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap: 3rem;
+  box-sizing: border-box;
+}
+
+.partners h2 {
+  color: #f7f3f3;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.summit2019 {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(
+      rgba(
+        153,
+        48,
+        22,
+        0.6
+      ),
+      rgba(153, 48, 22, 0.6)
+    ),
+    url(./images/2019.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-clip: initial;
+}
+
+.summit2019 h2 {
+  color: #f7f3f3;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.summit2022 {
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(
+      rgba(
+        153,
+        48,
+        22,
+        0.6
+      ),
+      rgb(
+        153,
+        48,
+        22,
+        0.6
+      )
+    ),
+    url(./images/2022alt.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-clip: initial;
+}
+
+.summit2022 h2 {
+  color: #f7f3f3;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.partners ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.partner-list {
+  list-style: none;
+}
+
+.partners ul .partner-list img {
+  width: 40%;
+}
+
+#menu-logo .logo img {
+  width: 90%;
+  padding-left: 2.5rem;
+}
+
+.partners {
+  background-color: #414246;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.partners hr {
+  border: 2px solid var(--secondaryColor);
+  width: 3.75rem;
+}
+
+.partner-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.part2 {
+  width: 5rem;
+}
+
+.part4 {
+  width: 5rem;
+}
+
+.last-foot {
+  display: flex;
+  background-color: var(--backgroundColor);
+  justify-content: space-around;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.words-foot {
+  font-size: 1.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+}
+
+@media screen and (max-width: 786px) {
+  .desk {
+    display: none;
+  }
+
+  .upper {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #menu-btn {
+    display: none;
+  }
+
+  .upper {
+    background-color: var(--primaryColor);
+    width: 100%;
+    padding-bottom: 0.1rem;
+    padding-top: 0.1rem;
+  }
+
+  .upper ul {
+    display: flex;
+    gap: 1.3rem;
+    align-items: baseline;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 10rem;
+  }
+
+  .menu-list a {
+    text-decoration: none;
+    color: var(--primaryColor);
+    font-size: 1.2rem;
+  }
+
+  .upper ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+
+  .menu-logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desk {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .menu-list {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10rem;
+    align-items: baseline;
+  }
+
+  .event1 {
+    border: 3px solid var(--secondaryColor);
+    padding: 1rem;
+    font-weight: 600;
+  }
+
+  .sec1-abt {
+    background-size: 100% 100%;
+    height: 100vh;
+  }
+
+  .theme {
+    gap: 0;
+    height: auto;
+  }
+
+  .theme h3 {
+    align-self: center;
+    font-size: 2.2rem;
+  }
+
+  .theme h1 {
+    align-self: center;
+    font-size: 3rem;
+    position: relative;
+  }
+
+  .description {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .description p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 1rem;
+  }
+
+  .address p {
+    font-size: 1.6rem;
+  }
+
+  .creative h2 {
+    font-size: 3rem;
+  }
+
+  .creative hr {
+    border: 2.3px solid var(--secondaryColor);
+    width: 7rem;
+  }
+
+  .creative p {
+    font-size: 1.6rem;
+  }
+
+  .logo {
+    text-align: center;
+  }
+
+  .past {
+    text-align: center;
+  }
+
+  .past-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 80%;
+    margin-left: 12rem;
+  }
+
+  .summit2019 {
+    width: 60%;
+  }
+
+  .summit2022 {
+    width: 60%;
+  }
+}
