@@ -95,14 +95,15 @@ li .cards-image img {
   position: relative;
 }
 
-.nav span .logo {
+/* .nav span .logo {
   padding-left: 15%;
-}
+} */
 
 .nav .logo img {
   padding-top: 1.3rem;
   padding-left: 1.3rem;
   width: 100%;
+  margin-left: 3rem;
 }
 
 .hero-container {
@@ -349,9 +350,11 @@ li .cards-text p {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    gap: 50rem;
+    gap: 5rem;
     background-color: #fff;
     padding-left: 3rem;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .nav {
@@ -400,6 +403,7 @@ li .cards-text p {
 
   .desk {
     display: flex;
+    justify-content: flex-end;
   }
 
   .menu-list {
@@ -409,6 +413,7 @@ li .cards-text p {
     width: 80%;
     justify-content: flex-end;
     padding-right: 17rem;
+    align-items: baseline;
   }
 
   .menu-list li {
@@ -422,7 +427,8 @@ li .cards-text p {
   .event1 {
     border: 4.5px solid var(--secondaryColor);
     width: 70%;
-    height: 5rem;
+
+    /* height: 5rem; */
     font-size: 2rem;
     font-weight: 700;
     box-sizing: border-box;

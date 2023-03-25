@@ -188,7 +188,7 @@ body {
       ),
       rgba(153, 48, 22, 0.6)
     ),
-    url(images/programs/2019.jpg);
+    url(./images/2019.jpg);
   background-size: cover;
   background-position: center center;
   background-clip: initial;
@@ -221,7 +221,7 @@ body {
         0.6
       )
     ),
-    url(images/programs/2022alt.jpeg);
+    url(./images/2022alt.jpeg);
   background-size: cover;
   background-position: center center;
   background-clip: initial;

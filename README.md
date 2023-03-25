@@ -97,12 +97,6 @@ For tracking linters errors locally you need to follow these steps:
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
-<!-- ## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] **add linters for different languages**
-- [ ] **create more flexible CSS** -->
-
 
 <!-- SUPPORT -->
 
@@ -115,7 +109,7 @@ Feel free to check the [issues page](../../issues/).
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
+- Design and inspiration by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 - Hat tip to [Microverse](www.microverse.org) and all the staff
 - Thanks to My coding Partners
 - Thanks to My Morning-session-group and Standup-team Partners and
