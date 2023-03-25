@@ -77,8 +77,6 @@ For tracking linters errors locally you need to follow these steps:
 - I used GitHub Pages to deploy my website
 - For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
 
-## Author
-
 👤 **Author1**
 
 - GitHub: [@Christelle-12](https://github.com/Christelle-12)
@@ -87,11 +85,24 @@ For tracking linters errors locally you need to follow these steps:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+
+- [ ] **Responsive design**
+- [ ] **Javascript functionality**
+- [ ] **Social media intergration**
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
@@ -104,13 +115,12 @@ Feel free to check the [issues page](../../issues/).
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-- Design and inspiration by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
-- Hat tip to [Microverse](www.microverse.org) and all the staff
-- Thanks to My coding Partners
-- Thanks to My Morning-session-group and Standup-team Partners and
-- Thanks to Code Reviewers
+
+I would like to thank Microverse as well as Emmanuel Tofa
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 
 ## 📝 License <a name="license"></a>

@@ -266,7 +266,8 @@ li .cards-text h3 {
 li .cards-text h4 {
   color: #f78c89;
   letter-spacing: normal;
-  line-height: 1.5rem;
+  line-height: 1.9rem;
+  font-family: 'Lato', sans-serif;
 }
 
 li .cards-text p {
