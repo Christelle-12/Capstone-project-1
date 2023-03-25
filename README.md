@@ -6,11 +6,6 @@
 
 The International Conference on Learning Representations (ICLR) is a prestigious academic conference focused on machine learning and artificial intelligence. The conference brings together researchers and practitioners from around the world to present and discuss the latest advances in the field. This year, ICLR will be held in Rwanda in May, offering a unique opportunity to learn about cutting-edge research and network with experts in a beautiful and vibrant African setting.
 
-<!-- - This is the page view:
-
-> |     | Mobile version                      | Desktop version                      |     |
-> | --- | ----------------------------------- | ------------------------------------ | --- |
-> |     | ![../images/screenshots/destop.PNG](../images/screenshots/destop.PNG)| ![Screenshot2](../images/screenshots/mobile version.PNG) | -->
 
 > Learning Objectives
 
@@ -41,7 +36,7 @@ The International Conference on Learning Representations (ICLR) is a prestigious
 
 ## Zoom Video
 
-<!-- [Link Zoom](https://drive.google.com/file/d/1Z_te42DTHXsvo4Nd2fqIilI2IKxuUx92/view?usp=sharing) -->
+[Link Zoom](https://www.loom.com/share/0b9933969a2a4b9cb3152008adb6c870)
 
 ## Getting Started
 
