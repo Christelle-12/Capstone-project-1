@@ -46,6 +46,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   gap: 3rem;
+  align-items: baseline;
 }
 
 .address a {
@@ -353,6 +354,7 @@ body {
     display: flex;
     flex-direction: row;
     margin-right: 10rem;
+    align-items: baseline;
   }
 
   .event1 {
