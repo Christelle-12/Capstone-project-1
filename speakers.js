@@ -93,10 +93,7 @@ let stat = false;
 function displayMore() {
   if (!stat) {
     teamlist.forEach((team, index) => {
-      if (index >= 2) {
-        team.style.display = 'flex';
-      
-      }
+      team.style.display = 'flex';
     });
     SpanButt.textContent = 'LESS';
     IconButt.classList.remove('fa-angle-down');
@@ -115,13 +112,34 @@ function displayMore() {
   }
 }
 
-// Hide all speakers except the first two by default
-teamlist.forEach((team, index) => {
-  if (index >= 2) {
-    team.style.display = 'none';
+function handleResize() {
+  if (window.innerWidth >= 768) {
+    teamlist.forEach((team, index) => {
+      team.style.display = 'flex';
+    });
+    SpanButt.style.display = 'none';
+    IconButt.style.display = 'none';
+  } else {
+    teamlist.forEach((team, index) => {
+      if (index >= 2) {
+        team.style.display = 'none';
+      }
+    });
+    SpanButt.style.display = 'inline-block';
+    IconButt.style.display = 'inline-block';
   }
-});
+}
 
+// Hide all speakers except the first two by default on mobile
+if (window.innerWidth < 768) {
+  teamlist.forEach((team, index) => {
+    if (index >= 2) {
+      team.style.display = 'none';
+    }
+  });
+}
 
 MoreButt.addEventListener('click', displayMore);
+window.addEventListener('resize', handleResize);
+
 
