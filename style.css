@@ -127,7 +127,7 @@ li .cards-image img {
   padding-left: 1.5rem;
   color: var(--seconderyColor);
   margin: 10px 0;
-  background-image: url("/images/font.jpg");
+  background-image: url("./images/font.jpg");
   background-size: cover;
   background-position: center center;
   background-clip: initial;
