@@ -256,6 +256,7 @@ li .cards-image img {
 
 li .cards-text {
   position: relative;
+  text-align: left;
 }
 
 li .cards-text h3 {
