@@ -68,7 +68,7 @@ The International Conference on Learning Representations (ICLR) is a prestigious
 
 ## Zoom Video
 
-[Link Zoom](https://www.loom.com/share/0b9933969a2a4b9cb3152008adb6c870)
+[Link Zoom](https://www.loom.com/share/c4218e81da16439986586eadfb80e8ae)
 
 ## Getting Started
 
