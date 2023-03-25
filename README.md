@@ -1,6 +1,26 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Capstone-project1
+# 📗 Table of Contents
 
-# International Conference on Learning Representations
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
 
 ## Description
 
@@ -29,6 +49,18 @@ The International Conference on Learning Representations (ICLR) is a prestigious
 - CSS (Flexbox and Grid)
 - JavaScript
 - Git and GitHub
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **impressive UI**
+- **user friendly**
+- **great UX**
+- **DOM elements**
+- **Javascript events**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Live Demo
 
@@ -108,7 +140,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Follow me on my github if you like this project...
+> Follow me on my github and Give a ⭐️ if you like this project!...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,11 +148,14 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse as well as Emmanuel Tofa
+- Design and inspiration by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
+
+- Hat tip to [Microverse](www.microverse.org) and all the staff
+- Thanks to My coding Partners
+- Thanks to My Morning-session-group and Standup-team Partners and
+- Thanks to Code Reviewers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 
 ## 📝 License <a name="license"></a>
